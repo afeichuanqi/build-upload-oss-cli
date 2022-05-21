@@ -1,0 +1,30 @@
+{
+  "name": "build-upload-oss-cli",
+  "version": "1.0.0",
+  "keywords": [
+    "ali-oss",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:howieyi/water.git"
+  },
+  "description": "基于阿里云oss快速上传webpack构建的工具",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "build-ali-oss-upload": "bin/build-ali-oss-upload"
+  },
+  "author": "潘飞龙",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "async": "^3.2.3",
+    "commander": "^9.2.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "path": "^0.12.7",
+    "single-line-log": "^1.1.2"
+  }
+}
