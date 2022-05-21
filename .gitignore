@@ -1,4 +1,4 @@
 # 项目排除路径
 /node_modules/
-./uploadOss.config.json
-./build/
+/uploadOss.config.json
+/build/

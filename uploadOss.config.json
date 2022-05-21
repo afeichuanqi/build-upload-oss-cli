@@ -1,8 +1,0 @@
-{
-    "region": "oss-cn-hangzhou",
-    "accessKeyId": "LTAI5t78AZp78eWvr5t4DQbS",
-    "accessKeySecret": "uqirQs9XyUBc3Su6nQaw3PJxYLCX17",
-    "bucket": "easy-z",
-    "bucketPath": "/build/",
-    "buildPath": "/build"
-}
