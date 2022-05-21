@@ -21,6 +21,7 @@
   "dependencies": {
     "ali-oss": "^6.17.1",
     "async": "^3.2.3",
+    "build-upload-oss-utils": "^1.0.0",
     "commander": "^9.2.0",
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.4",

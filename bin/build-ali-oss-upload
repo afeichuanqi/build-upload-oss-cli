@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const WebpackUploadOssPlugin = require('../main/index');
+const WebpackUploadOssPlugin = require('build-upload-oss-utils');
 const program = require('commander')
 const fs = require("fs");
 const path = require("path");
