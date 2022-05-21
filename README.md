@@ -1,3 +1,8 @@
+# 安装
+````
+yarn add build-upload-oss-cli -D
+npm install build-upload-oss-cli -D
+````
 # -cli
 <u>**<u>作用：将打包后的文件上传到阿里云oss上</u>**</u>
 

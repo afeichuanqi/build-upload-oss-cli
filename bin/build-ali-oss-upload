@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const WebpackUploadOssPlugin = require('build-upload-oss-utils');
+const WebpackUploadOssPlugin = require('build-upload-oss-cli');
 const program = require('commander')
 const fs = require("fs");
 const path = require("path");
@@ -23,7 +23,7 @@ program
                 return;
             }
             const ossConfig = JSON.parse(data);
-            const outputPath = path.join(__dirname, '../', ossConfig.buildPath);
+            const outputPath = path.join(__dirname, '../../../', ossConfig.buildPath);
             const bucketPath = `${ossConfig.bucket}${ossConfig.bucketPath}`;
             console.log(`本地文件夹路径: ${outputPath}`)
             console.log(`阿里oss路径: ${bucketPath}`)
