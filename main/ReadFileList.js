@@ -9,7 +9,7 @@ function readFileList(dir, filesList = [], replace) {
         if (stat.isDirectory()) {
             readFileList(path.join(dir, item), filesList, replace); //递归读取文件
         } else {
-            filesList.push(fullPath.replace(`${replace}/`, ''));
+            filesList.push(fullPath.replace(`${path.join(replace,'/')}`, ''));
         }
     });
     return filesList;
